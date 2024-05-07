@@ -1,0 +1,85 @@
+echo "# Versionamento" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MariliadeMattos/Versionamento.git
+git push -u origin main
+]echo "# Versionamento" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MariliadeMattos/Versionamento.git
+git push -u origin main
+
+Novo:
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dir
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\24153560\Documents\aula1\Versionamento>git add .
+
+C:\Users\24153560\Documents\aula1\Versionamento>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dir
+        modified:   oi.txt
+
+
+C:\Users\24153560\Documents\aula1\Versionamento>
+
+NOVO 2:
+C:\Users\24153560\Documents\aula1\Versionamento>git commit -m "Arquivo de comando da tarde TXT"
+[main 170b498] Arquivo de comando da tarde TXT
+ Committer: MARILIA DE MATTOS PORFIRIO CORDEIRO <24153560@edu119.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 15 insertions(+)
+ create mode 100644 dir
+
+Novo:
+C:\Users\24153560\Documents\aula1\Versionamento>git commit -m "adicionado ao Arquivo de comando da tarde TXT"
+[main 8767660] adicionado ao Arquivo de comando da tarde TXT
+ Committer: MARILIA DE MATTOS PORFIRIO CORDEIRO <24153560@edu119.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 41 insertions(+)
+
+C:\Users\24153560\Documents\aula1\Versionamento>git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\24153560\Documents\aula1\Versionamento> git config --global user.name "MariliadeMattos"
+
+C:\Users\24153560\Documents\aula1\Versionamento> git config --global user.email mariliamattos2007@gmail.com
+
+C:\Users\24153560\Documents\aula1\Versionamento>git status
