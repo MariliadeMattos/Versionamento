@@ -83,3 +83,16 @@ C:\Users\24153560\Documents\aula1\Versionamento> git config --global user.name "
 C:\Users\24153560\Documents\aula1\Versionamento> git config --global user.email mariliamattos2007@gmail.com
 
 C:\Users\24153560\Documents\aula1\Versionamento>git status
+
+
+C:\Users\24153560\Documents\tarde\Versionamento>git push -u
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.10 KiB | 1.10 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/MariliadeMattos/Versionamento
+   b5e6e22..98781c5  main -> main
+branch 'main' set up to track 'origin/main'.
